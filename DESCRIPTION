@@ -1,0 +1,25 @@
+Package: offSiteTrees
+Title: Analyze silviculture information for trees planted outside their natural range in BC
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Hardy",
+             family = "Griesbauer",
+             role = c("aut", "cre"),
+             email = "Hardy.Griesbauer@gov.bc.ca"),
+      person(given = "Province of British Columbia",
+             role = "cph"))
+Description: What the package does (one paragraph).
+License: Apache License (== 2.0) | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    knitr,
+    rmarkdown,
+    dplyr,
+    tidyr,
+    sf,
+    bcdata,
+    ggplot2
+VignetteBuilder: knitr
