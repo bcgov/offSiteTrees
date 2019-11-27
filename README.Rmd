@@ -4,7 +4,7 @@ output:
     variant: markdown_github
 ---
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -52,6 +52,7 @@ This will take a few minutes.  Note that I provided several species codes to the
 This package already comes with this dataset (?rskFDI)
 
 Next, let's clean the data:
+
 ```{r warning=FALSE}
 x<- cleanData(rskFDI)
 
@@ -73,6 +74,7 @@ spp_offsite<-
 Note this just lists polygons in climatic units where Douglas-fir is not currently considered acceptable on any site series, according to the CFRG.  This code ignores site series.
 
 Now we can summarize data:
+
 ```{r}
 spp_offsite %>% 
   group_by(BGC) %>% 
