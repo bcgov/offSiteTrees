@@ -6,8 +6,8 @@
 #' Function can take a VERY long time to run, so recommended to filter by single region at a time
 #' and do not filter for commonly planted species (e.g., Pli).
 #'
-#'@param regionCode Three-letter region code (e.g., "ROM").
-#'@param speciesList List of species codes to be extracted (e.g., c("FD","FDI"))
+#' @param regionCode Three-letter region code (e.g., "ROM").
+#' @param speciesList List of species codes to be extracted (e.g., c("FD","FDI"))
 #' @import dplyr bcdata sf
 #' @keywords
 #' @export

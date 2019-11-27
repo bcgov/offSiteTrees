@@ -12,4 +12,3 @@ cleanData(extractOut)
 \description{
 This function takes the output from extractData() and prepares it for summaries.
 }
-\keyword{}
