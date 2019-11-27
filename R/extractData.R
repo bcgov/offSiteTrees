@@ -10,6 +10,7 @@
 #'@param speciesList List of species codes to be extracted (e.g., c("FD","FDI"))
 #' @import dplyr bcdata sf
 #' @keywords
+#' @export
 
 extractData<-function(regionCode,speciesList) {
 

@@ -6,7 +6,7 @@
 #'@param extractOut output from extractData().
 #' @import dplyr tidyr
 #' @keywords
-#'
+#' @export
 
 cleanData<-function(extractOut) {
 

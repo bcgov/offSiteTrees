@@ -16,13 +16,24 @@ knitr::opts_chunk$set(
 See https://github.com/BCDevExchange/Our-Project-Docs/blob/master/discussion/projectstates.md
 If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badge' Addin. -->
 
-# treeSuitRatings
+# offSiteTrees
 
-Description of package
+Series of functions and scripts to analyze silviculture information for tree species planted outside their natural range in British Columbia.
 
 ### Features
+So far, this package has the following functions:
+
+- extractData() to download silviculture information for a given species and region in the province.  This function uses the bcdata package to query RESULTS.  Careful, this function can take a long time to download.
+- cleanData() cleans data returned from the extractData() function for analysis.
 
 ### Installation
+You can download this package from Github directly:
+
+```{r eval=FALSE}
+remotes::install_github("bcgov/offSiteTrees")
+library(offSiteTrees)
+```
+
 
 ### Usage
 
